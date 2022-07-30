@@ -21,7 +21,7 @@ function new_image(get_image)
 	});
 	canvas.add(block_image_object);
 	});
-	
+}
 
 
 window.addEventListener("keydown", my_keydown);
@@ -39,23 +39,23 @@ console.log(keyPressed);
 	if(keyPressed == '71')
 	{
 		block_x = 200;
-		new_image("pr.png");
+		new_image("gr.png");
     console.log ("A");
 	}
 	
 	if(keyPressed == '89')
 	{
 		block_x =350;
-		// upload yellow ranger
+		new_image("yr.png");
 	}
 	if(keyPressed == '80')
 	{
 		block_x = 600;
-		// upload pink ranger
+		new_image("pr.png");
 	}
 	if(keyPressed == '66')
 	{
 		block_x = 700;
-	// upload blue ranger
+		new_image("br.png");
 	}
 }
